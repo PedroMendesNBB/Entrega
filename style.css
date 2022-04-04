@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(248, 82, 4);
+}
+
+.header{
+    border-bottom: 2px solid #000000;}
+
+.container{
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.container ul{
+    color: #000000;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.header .container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: 10;
+}
+
+.banner{
+    height: 900px;
+    background-image: url(https://www.oficinadanet.com.br/imagens/post/39419/chamada-o-que-jogos-nft.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.banner span{
+    font-weight: 800px;
+}
+
+/* login */
+.banner .card{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card{
+    margin: 30px;
+}
+
+.btn{
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: azure;
+    padding: 10px 15px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
